@@ -1,0 +1,96 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #ffffff;
+}
+
+#headback {
+  background-color: #f2f2f2;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  font-family: "Lato", sans-serif;
+}
+
+.a1 {
+  font-size: 14px;
+  color: #5e5e5e;
+  margin-left: 119px;
+  margin-top: 17px;
+  display: flex;
+  flex-direction: row;
+}
+
+a {
+  text-decoration: none;
+}
+
+.b1 {
+  padding-left: 60px;
+  padding-right: 60px;
+  list-style-type: none;
+}
+
+.c1 {
+  margin: 13px 121px 0px 742px;
+  width: 90px;
+  height: 50px;
+}
+
+summary {
+  list-style: none;
+}
+
+details,
+summary {
+  display: block;
+}
+details summary:before {
+  content: " + ";
+}
+details[open] summary:before {
+  content: " - ";
+}
+
+#nav {
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+}
+
+.logo {
+  margin-top: 30px;
+  margin-left: 120px;
+  padding: 0px;
+}
+
+#menu {
+  color: #b6795f;
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+  margin-top: 58px;
+  margin-left: 75px;
+}
+
+.amenu {
+  margin-right: 60px;
+  cursor: no-drop;
+}
+
+.our {
+  color: #5e5e5e;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  margin-top: 58px;
+  font-family: "Lato", sans-serif;
+}
+
+.altour {
+  font-size: 14px;
+  color: #5e5e5e;
+  display: flex;
+  justify-content: center;
+  margin-top: 25.02px;
+  font-family: "Lato", sans-serif;
+}
